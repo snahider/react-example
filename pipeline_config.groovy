@@ -1,4 +1,9 @@
 libraries{
-    override = true
     slack
+}
+
+application_environments{
+    dev{
+        stage = 'dev react'
+    }
 }
