@@ -1,0 +1,4 @@
+libraries{
+    override = true
+    slack
+}
